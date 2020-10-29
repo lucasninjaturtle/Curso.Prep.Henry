@@ -27,6 +27,10 @@ function forEach(array, cb) {
 for (i=0; i<array.length; i++){
   cb(array[i]);
 }
+
+//array.forEach (cb) - se peude hacer de esta forma, esto es igual
+//que una iteracion como la de arriba
+
 }
 
 function map(array, cb) {
